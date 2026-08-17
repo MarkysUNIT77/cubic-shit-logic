@@ -1,0 +1,36 @@
+# ===================================================================
+# A.G.A.R.D.A. | CORE 10.0_OVERLORD | OPERATIONAL SHIELD
+# ===================================================================
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Hugging Face & Transformers Cache
+.cache/
+.huggingface/
+huggingface/
+/hub/
+
+# System logs & weights protection
+*.log
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+
+# OS garbage
+.DS_Store
+Thumbs.db
